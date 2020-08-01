@@ -14,6 +14,6 @@ WORKDIR /go/src/github.com/yebh17/go-app
 
 COPY --from=build-env /go/src/github.com/yebh17/go-app* /go/src/github.com/yebh17/go-app
 
-EXPOSE 8080
+EXPOSE 6777
 
 ENTRYPOINT [ "./main" ]
